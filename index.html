@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComfyUI AI 影像生成作業</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f1fa;
+      color: #333;
+      margin: 0;
+      line-height: 1.8;
+    }
+    header {
+      background: #7255a4;
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+    main {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 0 16px;
+    }
+    section {
+      background: white;
+      padding: 24px;
+      margin-bottom: 22px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px #ddd;
+    }
+    h2 { color: #7255a4; }
+  img{
+      display: block;
+      max-width: 100%;
+      max-height: 600px;
+      object-fit: contain;
+      margin: 15px auto;
+      border-radius: 10px;
+    }
+    .prompt {
+      background: #f4f1fa;
+      padding: 14px;
+      border-radius: 8px;
+      overflow-wrap: anywhere;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ComfyUI AI 影像生成作業</h1>
+  <p>人工智慧基本概念與演進</p>
+</header>
+
+<main>
+  <section>
+    <h2>一、原圖（Original Image）</h2>
+    <p>這是我使用自己的照片作為 AI 影像生成的原始素材。</p>
+    <img src="1935d126-a522-4298-b27d-64705d29841f.jfif"
+         alt="原始照片">
+  </section>
+
+  <section>
+    <h2>二、AI 生成的圖片（AI Generated Image）</h2>
+    <p>我使用 ComfyUI 將原始照片轉換成 AI 風格的圖片。</p>
+    <img src="8726a502-db83-41c8-98ad-69ebb1dddfd7.jfif"
+         alt="AI生成圖片">
+  </section>
+
+  <section>
+    <h2>三、完整工作流截圖（Workflow）</h2>
+    <p>以下是我使用 ComfyUI 進行影像生成的工作流程。</p>
+    <img src="ebdd73d4-b40f-4758-8554-fc01bc2229db.jfif"
+         alt="ComfyUI工作流程">
+  </section>
+
+  <section>
+    <h2>四、正反提示詞（Positive & Negative Prompts）</h2>
+
+    <h3>Positive Prompt（正向提示詞）</h3>
+    <div class="prompt">
+anime style, beautiful portrait, detailed eyes, soft lighting, high quality, detailed illustration    </div>
+
+    <h3>Negative Prompt（負向提示詞）</h3>
+    <div class="prompt">
+      low quality, blurry, bad anatomy, deformed face, distorted eyes, extra fingers, missing fingers, bad hands, watermark, text, duplicate
+
+    </div>
+  </section>
+
+  <section>
+    <h2>五、個人心得（Reflection）</h2>
+    <p>
+      這次作業讓我學習如何使用 ComfyUI 進行 AI 影像生成。
+      一開始，我對節點的連接方式不太熟悉，也遇到了一些操作上的問題。
+      經過反覆嘗試，我逐漸了解圖片生成的流程。
+      我發現 AI 不只能創作新的圖片，也能改變照片的風格。
+      這次的經驗讓我更了解人工智慧的應用，也提高了我對數位影像設計的興趣。
+    </p>
+  </section>
+</main>
+
+<footer>
+  ComfyUI AI Image Generation Project
+</footer>
+
+</body>
+</html>
